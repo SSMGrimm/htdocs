@@ -1,0 +1,570 @@
+[2018-04-08 16:04:33] [DEBUG  ] [SC_Webmaster_D]: getAllCurrentRankData called with order=4
+[2018-04-08 16:04:41] [DEBUG  ] [SC_Webmaster_D]: getAllCurrentRankData called with order=0
+[2018-04-08 16:05:28] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-04-08 16:05:34] [DEBUG  ] [SC_Webmaster_D]: getAllCurrentRankData called with order=4
+[2018-04-08 16:05:39] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-04-08 16:06:10] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-04-08 16:06:15] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-04-08 16:06:33] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-04-09 11:55:09] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-04-09 11:55:09] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-04-09 11:55:11] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 10.161.173.213
+[2018-06-27 21:15:14] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-27 21:15:41] [DEBUG  ] [Anonymous]: getProfilesByUsername called with search=, staffonly=
+[2018-06-27 21:16:38] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-27 21:16:49] [DEBUG  ] [Anonymous]: getProfilesByUsername called with search=, staffonly=
+[2018-06-27 21:17:05] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-06-27 21:17:05] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-06-27 21:17:05] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-06-27 21:17:05] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-27 21:20:48] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-27 21:21:11] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-27 21:22:18] [DEBUG  ] [SC_Webmaster_D]: getEventIdsByUser returned 0 results for userid=1
+[2018-06-27 21:22:18] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-27 21:24:35] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-27 22:21:42] [DEBUG  ] [SC_Webmaster_D]: getEventIdsByUser returned 0 results for userid=1
+[2018-06-27 22:21:42] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-27 22:21:44] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-27 22:22:16] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-27 22:39:37] [DEBUG  ] [SC_Webmaster_D]: getAllCurrentRankData called with order=4
+[2018-06-27 22:39:42] [DEBUG  ] [SC_Webmaster_D]: getAllCurrentRankData called with order=0
+[2018-06-27 22:44:50] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged out
+[2018-06-27 22:44:50] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 10:51:48] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 10:52:08] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-06-28 10:52:08] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-06-28 10:52:08] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-06-28 10:52:08] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 10:52:12] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 10:52:40] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 10:56:42] [INFO   ] [SC_Webmaster_D]: New user M_Member8_D self-registered successfully, UUID = 11
+[2018-06-28 10:56:42] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: NEW_USER
+[2018-06-28 10:56:42] [DEBUG  ] [SC_Webmaster_D]: getUserEmailAddress returned sirlogical96@gmail.com for UUID 11
+[2018-06-28 10:56:42] [INFO   ] [SC_Webmaster_D]: Email is turned off, contents will be dumped to logs.
+[2018-06-28 10:56:42] [INFO   ] [SC_Webmaster_D]: Contact to single user (ID=11)
+[2018-06-28 10:56:42] [INFO   ] [SC_Webmaster_D]: TO:sirlogical96@gmail.com/ SUBJECT:Your SmashClub Account Has Been Created/ BODY:Hello M_Member8_D, Your SmashClub account has been successfully created. This confirmation email lets you know you will receive notifications at this address. Visit the site and log in to start editing your player profile!/ HEADER:From: SmashClub <smashclub@sample>
+
+[2018-06-28 10:56:44] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 10:56:49] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged out
+[2018-06-28 10:56:49] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 10:57:02] [DEBUG  ] [M_Member8_D]: Authentication successful: email=sirlogical96@gmail.com, type=1, uuid=11, username=M_Member8_D
+[2018-06-28 10:57:02] [INFO   ] [M_Member8_D]: M_Member8_D logged in from IP address ::1
+[2018-06-28 10:57:02] [DEBUG  ] [M_Member8_D]: getAccountStatus returned 0 for user=M_Member8_D
+[2018-06-28 10:57:02] [DEBUG  ] [M_Member8_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 10:57:53] [INFO   ] [M_Member8_D]: M_Member8_D logged out
+[2018-06-28 10:57:53] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 10:58:29] [ALERT  ] [Anonymous]: Login failed for user root@dev from ::1 (invalid password)
+[2018-06-28 10:58:32] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:01:25] [ALERT  ] [Anonymous]: Login failed for user root@dev from ::1 (invalid password)
+[2018-06-28 11:01:27] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:01:38] [ALERT  ] [Anonymous]: Login failed for user root@dev from ::1 (invalid password)
+[2018-06-28 11:01:40] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:01:47] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-06-28 11:01:47] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-06-28 11:01:47] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-06-28 11:01:47] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:01:54] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 11:02:17] [DEBUG  ] [SC_Webmaster_D]: getEventIdsByUser returned 0 results for userid=1
+[2018-06-28 11:02:17] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:02:58] [INFO   ] [SC_Webmaster_D]: A new event was created by SC_Webmaster_D: Test Tourney 1
+[2018-06-28 11:02:58] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: NEW_EVENT
+[2018-06-28 11:02:58] [DEBUG  ] [SC_Webmaster_D]: getEventIdsByUser returned 0 results for userid=1
+[2018-06-28 11:02:58] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-06-28 11:03:08] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 11:03:14] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 11:03:18] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 11:03:25] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 11:03:29] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 11:03:39] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged out
+[2018-06-28 11:03:39] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:03:48] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-06-28 11:03:48] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-06-28 11:03:48] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-06-28 11:03:48] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:04:05] [TRACE  ] [SC_Webmaster_D]: Entering compareUserAccess, user1=1, user2=5
+[2018-06-28 11:04:05] [TRACE  ] [SC_Webmaster_D]: Running compareUserAccess, type1=5, type2=4
+[2018-06-28 11:04:05] [ALERT  ] [SC_Webmaster_D]: User ID 5 password was reset using a temporary password. SC_Webmaster_D requested the reset and was shown the new password.
+[2018-06-28 11:04:35] [TRACE  ] [SC_Webmaster_D]: Entering compareUserAccess, user1=1, user2=2
+[2018-06-28 11:04:35] [TRACE  ] [SC_Webmaster_D]: Running compareUserAccess, type1=5, type2=1
+[2018-06-28 11:04:35] [ALERT  ] [SC_Webmaster_D]: User ID 2 password was reset using a temporary password. SC_Webmaster_D requested the reset and was shown the new password.
+[2018-06-28 11:05:02] [TRACE  ] [SC_Webmaster_D]: Entering compareUserAccess, user1=1, user2=6
+[2018-06-28 11:05:02] [TRACE  ] [SC_Webmaster_D]: Running compareUserAccess, type1=5, type2=1
+[2018-06-28 11:05:02] [ALERT  ] [SC_Webmaster_D]: User ID 6 password was reset using a temporary password. SC_Webmaster_D requested the reset and was shown the new password.
+[2018-06-28 11:05:32] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged out
+[2018-06-28 11:05:32] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:05:46] [DEBUG  ] [A_Admin_D]: Authentication successful: email=admin@dev, type=4, uuid=5, username=A_Admin_D
+[2018-06-28 11:05:46] [INFO   ] [A_Admin_D]: A_Admin_D logged in from IP address ::1
+[2018-06-28 11:05:46] [DEBUG  ] [A_Admin_D]: getAccountStatus returned 1 for user=A_Admin_D
+[2018-06-28 11:05:46] [INFO   ] [A_Admin_D]: User A_Admin_D has expired password flag. Redirecting to password change form.
+[2018-06-28 11:05:58] [INFO   ] [A_Admin_D]: User A_Admin_D successfully changed their password
+[2018-06-28 11:05:58] [INFO   ] [A_Admin_D]: A_Admin_D logged out
+[2018-06-28 11:05:59] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:06:10] [DEBUG  ] [A_Admin_D]: Authentication successful: email=admin@dev, type=4, uuid=5, username=A_Admin_D
+[2018-06-28 11:06:10] [INFO   ] [A_Admin_D]: A_Admin_D logged in from IP address ::1
+[2018-06-28 11:06:10] [DEBUG  ] [A_Admin_D]: getAccountStatus returned 0 for user=A_Admin_D
+[2018-06-28 11:06:10] [DEBUG  ] [A_Admin_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:06:12] [DEBUG  ] [A_Admin_D]: getEventIdsByUser returned 0 results for userid=5
+[2018-06-28 11:06:12] [DEBUG  ] [A_Admin_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:06:18] [INFO   ] [A_Admin_D]: A_Admin_D logged out
+[2018-06-28 11:06:18] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:06:26] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-06-28 11:06:26] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-06-28 11:06:26] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-06-28 11:06:26] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:06:50] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 2
+[2018-06-28 11:06:50] [INFO   ] [SC_Webmaster_D]: Site setting [CompMatchRules] changed to 
+[2018-06-28 11:06:50] [INFO   ] [SC_Webmaster_D]: Site setting [EventIsRanked] changed to 1
+[2018-06-28 11:06:50] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyBracketStyle] changed to 0
+[2018-06-28 11:06:50] [INFO   ] [SC_Webmaster_D]: Site setting [MatchMakingEvent] changed to 1
+[2018-06-28 11:06:56] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged out
+[2018-06-28 11:06:56] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:07:02] [DEBUG  ] [A_Admin_D]: Authentication successful: email=admin@dev, type=4, uuid=5, username=A_Admin_D
+[2018-06-28 11:07:02] [INFO   ] [A_Admin_D]: A_Admin_D logged in from IP address ::1
+[2018-06-28 11:07:02] [DEBUG  ] [A_Admin_D]: getAccountStatus returned 0 for user=A_Admin_D
+[2018-06-28 11:07:02] [DEBUG  ] [A_Admin_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:07:05] [DEBUG  ] [A_Admin_D]: getEventIdsByUser returned 0 results for userid=5
+[2018-06-28 11:07:05] [DEBUG  ] [A_Admin_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:07:06] [INFO   ] [A_Admin_D]: User A_Admin_D signed up for event with id 1
+[2018-06-28 11:07:06] [DEBUG  ] [A_Admin_D]: getEventIdsByUser returned 1 results for userid=5
+[2018-06-28 11:07:06] [DEBUG  ] [A_Admin_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:07:08] [INFO   ] [A_Admin_D]: A_Admin_D logged out
+[2018-06-28 11:07:09] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:07:31] [ALERT  ] [Anonymous]: Login failed for user member1@dev from ::1 (invalid password)
+[2018-06-28 11:07:32] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:07:43] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:07:59] [DEBUG  ] [M_Member2_D]: Authentication successful: email=member2@dev, type=1, uuid=6, username=M_Member2_D
+[2018-06-28 11:07:59] [INFO   ] [M_Member2_D]: M_Member2_D logged in from IP address ::1
+[2018-06-28 11:07:59] [DEBUG  ] [M_Member2_D]: getAccountStatus returned 1 for user=M_Member2_D
+[2018-06-28 11:07:59] [INFO   ] [M_Member2_D]: User M_Member2_D has expired password flag. Redirecting to password change form.
+[2018-06-28 11:08:09] [INFO   ] [M_Member2_D]: User M_Member2_D successfully changed their password
+[2018-06-28 11:08:09] [INFO   ] [M_Member2_D]: M_Member2_D logged out
+[2018-06-28 11:08:22] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:08:47] [ALERT  ] [Anonymous]: Login failed for user sirlogical96@gmail.com from ::1 (invalid password)
+[2018-06-28 11:08:49] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:08:54] [DEBUG  ] [M_Member8_D]: Authentication successful: email=sirlogical96@gmail.com, type=1, uuid=11, username=M_Member8_D
+[2018-06-28 11:08:54] [INFO   ] [M_Member8_D]: M_Member8_D logged in from IP address ::1
+[2018-06-28 11:08:54] [DEBUG  ] [M_Member8_D]: getAccountStatus returned 0 for user=M_Member8_D
+[2018-06-28 11:08:54] [DEBUG  ] [M_Member8_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:08:58] [DEBUG  ] [M_Member8_D]: getEventIdsByUser returned 0 results for userid=11
+[2018-06-28 11:08:58] [DEBUG  ] [M_Member8_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:08:59] [INFO   ] [M_Member8_D]: User M_Member8_D signed up for event with id 1
+[2018-06-28 11:09:00] [DEBUG  ] [M_Member8_D]: getEventIdsByUser returned 1 results for userid=11
+[2018-06-28 11:09:00] [DEBUG  ] [M_Member8_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:09:04] [INFO   ] [M_Member8_D]: M_Member8_D logged out
+[2018-06-28 11:09:04] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:09:18] [ALERT  ] [Anonymous]: Login failed for user root@dev from ::1 (invalid password)
+[2018-06-28 11:09:20] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:09:26] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-06-28 11:09:26] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-06-28 11:09:26] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-06-28 11:09:26] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:10:00] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 2 rows for event id=1
+[2018-06-28 11:10:14] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=2
+[2018-06-28 11:10:20] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 2 rows for event id=1
+[2018-06-28 11:10:34] [TRACE  ] [SC_Webmaster_D]: Entering compareUserAccess, user1=1, user2=2
+[2018-06-28 11:10:34] [TRACE  ] [SC_Webmaster_D]: Running compareUserAccess, type1=5, type2=1
+[2018-06-28 11:10:34] [ALERT  ] [SC_Webmaster_D]: User ID 2 password was reset using a temporary password. SC_Webmaster_D requested the reset and was shown the new password.
+[2018-06-28 11:11:28] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged out
+[2018-06-28 11:11:28] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:11:39] [DEBUG  ] [M_Member1_D]: Authentication successful: email=member1@dev, type=1, uuid=2, username=M_Member1_D
+[2018-06-28 11:11:39] [INFO   ] [M_Member1_D]: M_Member1_D logged in from IP address ::1
+[2018-06-28 11:11:39] [DEBUG  ] [M_Member1_D]: getAccountStatus returned 1 for user=M_Member1_D
+[2018-06-28 11:11:39] [INFO   ] [M_Member1_D]: User M_Member1_D has expired password flag. Redirecting to password change form.
+[2018-06-28 11:11:52] [INFO   ] [M_Member1_D]: User M_Member1_D successfully changed their password
+[2018-06-28 11:11:52] [INFO   ] [M_Member1_D]: M_Member1_D logged out
+[2018-06-28 11:11:53] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:11:58] [DEBUG  ] [M_Member1_D]: Authentication successful: email=member1@dev, type=1, uuid=2, username=M_Member1_D
+[2018-06-28 11:11:58] [INFO   ] [M_Member1_D]: M_Member1_D logged in from IP address ::1
+[2018-06-28 11:11:58] [DEBUG  ] [M_Member1_D]: getAccountStatus returned 0 for user=M_Member1_D
+[2018-06-28 11:11:58] [DEBUG  ] [M_Member1_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:12:02] [DEBUG  ] [M_Member1_D]: getEventIdsByUser returned 0 results for userid=2
+[2018-06-28 11:12:02] [DEBUG  ] [M_Member1_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:12:04] [INFO   ] [M_Member1_D]: User M_Member1_D signed up for event with id 1
+[2018-06-28 11:12:04] [DEBUG  ] [M_Member1_D]: getEventIdsByUser returned 1 results for userid=2
+[2018-06-28 11:12:04] [DEBUG  ] [M_Member1_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:12:09] [INFO   ] [M_Member1_D]: M_Member1_D logged out
+[2018-06-28 11:12:09] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:12:22] [DEBUG  ] [M_Member2_D]: Authentication successful: email=member2@dev, type=1, uuid=6, username=M_Member2_D
+[2018-06-28 11:12:22] [INFO   ] [M_Member2_D]: M_Member2_D logged in from IP address ::1
+[2018-06-28 11:12:22] [DEBUG  ] [M_Member2_D]: getAccountStatus returned 0 for user=M_Member2_D
+[2018-06-28 11:12:22] [DEBUG  ] [M_Member2_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:12:24] [DEBUG  ] [M_Member2_D]: getEventIdsByUser returned 0 results for userid=6
+[2018-06-28 11:12:24] [DEBUG  ] [M_Member2_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:12:25] [INFO   ] [M_Member2_D]: User M_Member2_D signed up for event with id 1
+[2018-06-28 11:12:25] [DEBUG  ] [M_Member2_D]: getEventIdsByUser returned 1 results for userid=6
+[2018-06-28 11:12:25] [DEBUG  ] [M_Member2_D]: getAllUpcomingEvents returned 0 rows, private=1
+[2018-06-28 11:12:27] [INFO   ] [M_Member2_D]: M_Member2_D logged out
+[2018-06-28 11:12:28] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:12:34] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-06-28 11:12:34] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-06-28 11:12:34] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-06-28 11:12:34] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:12:38] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-06-28 11:12:42] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=2
+[2018-06-28 11:12:42] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 4
+[2018-06-28 11:12:46] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-06-28 11:14:29] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-06-28 11:14:33] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=0
+[2018-06-28 11:14:33] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 4
+[2018-06-28 11:16:28] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-06-28 11:16:41] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=0
+[2018-06-28 11:16:41] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 4
+[2018-06-28 11:16:43] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-06-28 11:18:54] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 11:19:09] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:19:09] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:19:09] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:19:09] [INFO   ] [SC_Webmaster_D]: Player[1]: A_Admin_D, Score: 0, Old rank: 540, New rank: 540, PM Counter: 0
+[2018-06-28 11:19:09] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 0, Old rank: 1200, New rank: 1200, PM Counter: 3
+[2018-06-28 11:19:09] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:19:09] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=5, new rank=540
+[2018-06-28 11:19:09] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '540', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	if(svc_getMemberInfoByID(5)['rank_current'] != 540){
+		rank_placements = GREATEST(0, rank_placements-1);
+	}
+
+	WHERE uuid='5'
+[2018-06-28 11:19:09] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if(svc_getMemberInfoByID(5)['rank_current'] != 540){
+		rank_placements = GREATE' at line 5
+[2018-06-28 11:19:11] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:19:48] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:20:48] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:20:48] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:20:48] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:20:48] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 0, Old rank: 473, New rank: 473, PM Counter: 0
+[2018-06-28 11:20:48] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 0, Old rank: 1200, New rank: 1200, PM Counter: 3
+[2018-06-28 11:20:48] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:20:48] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=473
+[2018-06-28 11:20:48] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '473', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	rank_placements = GREATEST(0, rank_placements-1);
+
+	WHERE uuid='2'
+[2018-06-28 11:20:48] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE uuid='2'' at line 7
+[2018-06-28 11:20:50] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:21:57] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:22:13] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:22:24] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:22:24] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:22:24] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:22:24] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 0, Old rank: 473, New rank: 473, PM Counter: 0
+[2018-06-28 11:22:24] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 0, Old rank: 1200, New rank: 1200, PM Counter: 3
+[2018-06-28 11:22:24] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:22:24] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=473
+[2018-06-28 11:22:24] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '473', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	rank_placements = GREATEST(0, rank_placements-1),
+
+	WHERE uuid='2'
+[2018-06-28 11:22:24] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE uuid='2'' at line 7
+[2018-06-28 11:22:26] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:22:49] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 11:23:07] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:23:07] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:23:07] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:23:07] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 694, PM Counter: 0
+[2018-06-28 11:23:07] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 0, Old rank: 1200, New rank: 758, PM Counter: 3
+[2018-06-28 11:23:07] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:23:07] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=694
+[2018-06-28 11:23:07] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '694', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	rank_placements = GREATEST(0, rank_placements-1),
+
+	WHERE uuid='2'
+[2018-06-28 11:23:07] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE uuid='2'' at line 7
+[2018-06-28 11:23:10] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:23:57] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:23:57] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:23:57] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:23:57] [INFO   ] [SC_Webmaster_D]: Player[1]: A_Admin_D, Score: 2, Old rank: 540, New rank: 750, PM Counter: 0
+[2018-06-28 11:23:57] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 0, Old rank: 1200, New rank: 780, PM Counter: 3
+[2018-06-28 11:23:57] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:23:57] [INFO   ] [SC_Webmaster_D]: User ID 5 rank was updated to 750 in database.
+[2018-06-28 11:23:57] [INFO   ] [SC_Webmaster_D]: User ID 11 rank was updated to 780 in database.
+[2018-06-28 11:23:57] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-06-28 11:24:45] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 11:32:18] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 11:32:31] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:32:31] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:32:31] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:32:31] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 549, PM Counter: 0
+[2018-06-28 11:32:31] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 1, Old rank: 780, New rank: 629, PM Counter: 2
+[2018-06-28 11:32:31] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:32:31] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=549
+[2018-06-28 11:32:31] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	rank_placements = CASE WHEN svc_getMemberInfoByID(2)['rank_current'] != 549 THEN GREATEST(0, rank)_placements-1 ELSE END,
+	SET rank_current = '549', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	
+
+	WHERE uuid='2'
+[2018-06-28 11:32:31] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= CASE WHEN svc_getMemberInfoByID(2)['rank_current'] != 549 THEN GREATEST(0, ran' at line 2
+[2018-06-28 11:32:33] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:34:11] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:34:11] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:34:11] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:34:11] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 549, PM Counter: 0
+[2018-06-28 11:34:11] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 1, Old rank: 780, New rank: 629, PM Counter: 2
+[2018-06-28 11:34:11] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:34:11] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=549
+[2018-06-28 11:34:11] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	rank_placements = CASE WHEN svc_getMemberInfoByID(2)['rank_current'] != 549 THEN GREATEST(0, rank)_placements-1 ELSE rank_placements END,
+	SET rank_current = '549', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	
+
+	WHERE uuid='2'
+[2018-06-28 11:34:11] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= CASE WHEN svc_getMemberInfoByID(2)['rank_current'] != 549 THEN GREATEST(0, ran' at line 2
+[2018-06-28 11:34:12] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:34:48] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:34:48] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:34:48] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:34:48] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 624, PM Counter: 0
+[2018-06-28 11:34:48] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 0, Old rank: 780, New rank: 478, PM Counter: 2
+[2018-06-28 11:34:48] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:34:48] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=624
+[2018-06-28 11:34:48] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	
+	SET rank_current = '624', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	rank_placements = CASE WHEN svc_getMemberInfoByID(2)['rank_current'] != 624 THEN GREATEST(0, rank)_placements-1 ELSE rank_placements END,
+
+	WHERE uuid='2'
+[2018-06-28 11:34:48] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['rank_current'] != 624 THEN GREATEST(0, rank)_placements-1 ELSE rank_placements' at line 6
+[2018-06-28 11:34:50] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:35:08] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:35:20] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:35:20] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:35:20] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:35:20] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 549, PM Counter: 0
+[2018-06-28 11:35:20] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 1, Old rank: 780, New rank: 629, PM Counter: 2
+[2018-06-28 11:35:20] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:35:20] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=549
+[2018-06-28 11:35:20] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '549', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	rank_placements = CASE WHEN svc_getMemberInfoByID(2)['rank_current'] != 549 THEN GREATEST(0, rank)_placements-1 ELSE rank_placements END,
+
+	WHERE uuid='2'
+[2018-06-28 11:35:20] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['rank_current'] != 549 THEN GREATEST(0, rank)_placements-1 ELSE rank_placements' at line 5
+[2018-06-28 11:35:22] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:36:39] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:36:39] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:36:39] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:36:39] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 624, PM Counter: 0
+[2018-06-28 11:36:39] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 0, Old rank: 780, New rank: 478, PM Counter: 2
+[2018-06-28 11:36:39] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:36:39] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=624
+[2018-06-28 11:36:39] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '624', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	rank_placements = CASE WHEN rank_current != 624 THEN GREATEST(0, rank)_placements-1 ELSE rank_placements END,
+
+	WHERE uuid='2'
+[2018-06-28 11:36:39] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '_placements-1 ELSE rank_placements END,
+
+	WHERE uuid='2'' at line 5
+[2018-06-28 11:36:41] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:40:21] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:40:21] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:40:21] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:40:21] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 549, PM Counter: 0
+[2018-06-28 11:40:21] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 1, Old rank: 780, New rank: 629, PM Counter: 2
+[2018-06-28 11:40:21] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:40:21] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=549
+[2018-06-28 11:40:21] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_placements = CASE WHEN svc_getMemberInfoByID(2)['rank_current'] != 549 THEN GREATEST(0, rank_placements-1) ELSE rank_placements END,
+	rank_current = '549', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	
+
+	WHERE uuid='2'
+[2018-06-28 11:40:21] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['rank_current'] != 549 THEN GREATEST(0, rank_placements-1) ELSE rank_placements' at line 2
+[2018-06-28 11:40:24] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:41:04] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:41:04] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:41:04] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:41:04] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member2_D, Score: 2, Old rank: 1065, New rank: 1091, PM Counter: 0
+[2018-06-28 11:41:04] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 1, Old rank: 780, New rank: 728, PM Counter: 2
+[2018-06-28 11:41:04] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:41:04] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=6, new rank=1091
+[2018-06-28 11:41:04] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_placements = CASE WHEN svc_getMemberInfoByID('6')['rank_current'] != 1091 THEN GREATEST(0, rank_placements-1) ELSE rank_placements END,
+	rank_current = '1091', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	
+
+	WHERE uuid='6'
+[2018-06-28 11:41:04] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '['rank_current'] != 1091 THEN GREATEST(0, rank_placements-1) ELSE rank_placement' at line 2
+[2018-06-28 11:41:07] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:54:29] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:54:29] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:54:29] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:54:29] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 549, PM Counter: 0
+[2018-06-28 11:54:29] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 1, Old rank: 780, New rank: 629, PM Counter: 2
+[2018-06-28 11:54:29] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:54:29] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=549
+[2018-06-28 11:54:29] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '549', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	if(473 != 549){
+		rank_placements = GREATEST(0, rank_placements-1),
+	}
+
+	WHERE uuid='2'
+[2018-06-28 11:54:29] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if(473 != 549){
+		rank_placements = GREATEST(0, rank_placements-1),
+	}
+
+	WHE' at line 5
+[2018-06-28 11:54:31] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:55:56] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:55:56] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:55:56] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:55:56] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 549, PM Counter: 0
+[2018-06-28 11:55:56] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 1, Old rank: 780, New rank: 629, PM Counter: 2
+[2018-06-28 11:55:56] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:55:56] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=549
+[2018-06-28 11:55:56] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '549', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	if(473 == 549){
+	}
+	else {
+		rank_placements = GREATEST(0, rank_placements-1),
+	}
+
+	WHERE uuid='2'
+[2018-06-28 11:55:56] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if(473 == 549){
+	}
+	else {
+		rank_placements = GREATEST(0, rank_placements-1)' at line 5
+[2018-06-28 11:55:57] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 11:57:50] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:57:50] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 11:57:50] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 11:57:50] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 549, PM Counter: 0
+[2018-06-28 11:57:50] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 1, Old rank: 780, New rank: 629, PM Counter: 2
+[2018-06-28 11:57:50] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 11:57:50] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=549
+[2018-06-28 11:57:50] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '549', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	rank_placements = CASE WHEN 473 == rank_current THEN rank_placements ELSE GREATEST(0, rank_placements-1) END,
+
+	WHERE uuid='2'
+[2018-06-28 11:57:50] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= rank_current THEN rank_placements ELSE GREATEST(0, rank_placements-1) END,
+
+' at line 5
+[2018-06-28 11:57:53] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 15:18:15] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 15:23:57] [DEBUG  ] [SC_Webmaster_D]: getAllCurrentRankData called with order=4
+[2018-06-28 15:37:21] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:37:21] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 15:37:21] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 15:37:21] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 624, PM Counter: 0
+[2018-06-28 15:37:21] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 0, Old rank: 780, New rank: 478, PM Counter: 2
+[2018-06-28 15:37:21] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:37:21] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=624
+[2018-06-28 15:37:21] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '624', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	rank_placements = GREATEST(0, rank_placements-1),
+
+	WHERE uuid='2'
+[2018-06-28 15:37:21] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE uuid='2'' at line 7
+[2018-06-28 15:37:23] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 15:38:13] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:38:13] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 15:38:13] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 15:38:13] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 572, PM Counter: 0
+[2018-06-28 15:38:13] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member2_D, Score: 1, Old rank: 1065, New rank: 966, PM Counter: 0
+[2018-06-28 15:38:13] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:38:14] [SEVERE ] [SC_Webmaster_D]: updateRank procedure failed! userid=2, new rank=572
+[2018-06-28 15:38:14] [SEVERE ] [SC_Webmaster_D]: Query: UPDATE user_ranking 
+	SET rank_current = '572', 
+	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
+	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
+	rank_placements = GREATEST(0, rank_placements-1),
+
+	WHERE uuid='2'
+[2018-06-28 15:38:14] [SEVERE ] [SC_Webmaster_D]: MySQL Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE uuid='2'' at line 7
+[2018-06-28 15:38:15] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 15:39:20] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:39:20] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 15:39:20] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 15:39:20] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 473, New rank: 572, PM Counter: 0
+[2018-06-28 15:39:20] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member2_D, Score: 1, Old rank: 1065, New rank: 966, PM Counter: 0
+[2018-06-28 15:39:20] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:39:20] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 572 in database.
+[2018-06-28 15:39:20] [INFO   ] [SC_Webmaster_D]: User ID 6 rank was updated to 966 in database.
+[2018-06-28 15:39:20] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-06-28 15:39:37] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:39:37] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 15:39:37] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 15:39:37] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 572, New rank: 655, PM Counter: 0
+[2018-06-28 15:39:37] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member2_D, Score: 1, Old rank: 966, New rank: 883, PM Counter: 0
+[2018-06-28 15:39:37] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:39:37] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 655 in database.
+[2018-06-28 15:39:37] [INFO   ] [SC_Webmaster_D]: User ID 6 rank was updated to 883 in database.
+[2018-06-28 15:39:37] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-06-28 15:39:44] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 15:40:00] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:40:00] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 15:40:00] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 15:40:00] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 655, New rank: 715, PM Counter: 0
+[2018-06-28 15:40:00] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 1, Old rank: 780, New rank: 659, PM Counter: 2
+[2018-06-28 15:40:00] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:40:00] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 715 in database.
+[2018-06-28 15:40:00] [INFO   ] [SC_Webmaster_D]: User ID 11 rank was updated to 659 in database.
+[2018-06-28 15:40:00] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-06-28 15:40:04] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 15:40:18] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:40:18] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 15:40:18] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 15:40:18] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 0, Old rank: 715, New rank: 715, PM Counter: 0
+[2018-06-28 15:40:18] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member8_D, Score: 0, Old rank: 659, New rank: 659, PM Counter: 1
+[2018-06-28 15:40:18] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:40:18] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 715 in database.
+[2018-06-28 15:40:18] [INFO   ] [SC_Webmaster_D]: User ID 11 rank was updated to 659 in database.
+[2018-06-28 15:40:22] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-06-28 15:40:26] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-06-28 15:42:45] [TRACE  ] [SC_Webmaster_D]: Entering compareUserAccess, user1=1, user2=11
+[2018-06-28 15:42:45] [TRACE  ] [SC_Webmaster_D]: Running compareUserAccess, type1=5, type2=1
+[2018-06-28 15:42:46] [ALERT  ] [SC_Webmaster_D]: User account ID 11 was DELETED by SC_Webmaster_D
+[2018-06-28 15:43:18] [INFO   ] [SC_Webmaster_D]: New user M_Member7_D self-registered successfully, UUID = 12
+[2018-06-28 15:43:18] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: NEW_USER
+[2018-06-28 15:43:18] [DEBUG  ] [SC_Webmaster_D]: getUserEmailAddress returned member7@dev for UUID 12
+[2018-06-28 15:43:18] [INFO   ] [SC_Webmaster_D]: Email is turned off, contents will be dumped to logs.
+[2018-06-28 15:43:18] [INFO   ] [SC_Webmaster_D]: Contact to single user (ID=12)
+[2018-06-28 15:43:18] [INFO   ] [SC_Webmaster_D]: TO:member7@dev/ SUBJECT:Your SmashClub Account Has Been Created/ BODY:Hello M_Member7_D, Your SmashClub account has been successfully created. This confirmation email lets you know you will receive notifications at this address. Visit the site and log in to start editing your player profile!/ HEADER:From: SmashClub <smashclub@sample>
+
+[2018-06-28 15:43:20] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-06-28 15:43:36] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:43:36] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-06-28 15:43:36] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-06-28 15:43:36] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 0, Old rank: 715, New rank: 715, PM Counter: 0
+[2018-06-28 15:43:36] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member7_D, Score: 0, Old rank: 1200, New rank: 1200, PM Counter: 3
+[2018-06-28 15:43:36] [INFO   ] [SC_Webmaster_D]: --------
+[2018-06-28 15:43:36] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-06-28 15:43:40] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
