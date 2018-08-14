@@ -19,7 +19,7 @@
 			var option = dropdown.options[dropdown.selectedIndex].value;
 
 			if (option==8){
-				return confirm('WARNING: This account will be COMPLETELY DELETED. All social and current ranking data will be lost. You cannot undo this action. Please disable the account instead if you want data to be retained. Do you wish to continue?');
+				return confirm('WARNING! This will remove all traces of this account from the system. All social and current ranking data will be lost. References to it in records may be invalidated. You cannot undo this action. Please disable the account instead if you want data to be retained. Do you wish to continue?');
 			} else if (option==6){
 				return confirm('Disabling this account will cause it to disappear from rankings and directories, but data will be retained. You can re-enable the account later. Do you wish to continue?');
 			} else {
@@ -212,7 +212,13 @@
 				<div class="acp-icon">
 					<a href="/forms/event_review.php" target="_blank">
 					<img src="/resource/admincp/attendance.png" />
-					Manage Guests
+					View Signups
+					</a>
+				</div>
+				<div class="acp-icon">
+					<a href="/forms/attendance.php" target="_blank">
+					<img src="/resource/admincp/event_attendance.png" />
+					Take Attendance
 					</a>
 				</div>
 				<hr />
@@ -220,6 +226,21 @@
 
 			<div class="acp-block">
 				<h2>Communication</h2>
+				<?php if (svc_getSetting("TwitchOnAir")==0) : ?>
+				<div class="acp-icon">
+				<a href="/script/stream.php?live=1">
+				<img src="/resource/admincp/go_live.png" />
+				Open Live Stream
+				</a>
+				</div>
+				<?php else : ?>
+				<div class="acp-icon">
+				<a href="/script/stream.php?live=0">
+				<img src="/resource/admincp/go_live.png" />
+				Close Live Stream
+				</a>
+				</div>
+				<?php endif; ?>
 				<div class="acp-icon">
 					<a href="/forms/post_announcement.php">
 					<img src="/resource/admincp/announcement.png" />
@@ -268,21 +289,27 @@
 				</div>
 				<?php endif; ?>
 				<div class="acp-icon">
-					<a href="#" onclick="alert('This feature coming soon!')">
+					<a href="/forms/home_edit.php" target="_blank">
 					<img src="/resource/admincp/site_settings.png" />
-					Edit Club Info
+					Customize Homepage
+					</a>
+				</div>
+				<div class="acp-icon">
+					<a href="/forms/club_settings.php" target="_blank">
+					<img src="/resource/admincp/access_settings.png" />
+					Club Settings
 					</a>
 				</div>
 				<div class="acp-icon">
 					<a href="#" onclick="alert('This feature coming soon!')">
-					<img src="/resource/admincp/access_settings.png" />
-					Manage Page Access
+					<img src="/resource/admincp/alert_message.png" />
+					Maintenance Message
 					</a>
 				</div>
 				<div class="acp-icon">
 					<a href="/logs/smashclub.log">
-					<img src="/resource/admincp/logs.png" />
-					View Site Logs
+					<img src="/resource/admincp/cleanup.png" />
+					Clean Up
 					</a>
 				</div>
 			</div>

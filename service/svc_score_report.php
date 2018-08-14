@@ -20,16 +20,30 @@ function svc_reportSinglesScore($id1, $score1, $id2, $score2){
 		$diff = $score1 - $score2;
 
 		if ($diff>0){ //P1 wins
-			$p1add = getWinnerRatingIncrease($curr1, $curr2) * abs($diff);
-			$p2sub = getLoserRatingDecrease($curr2, $curr1) * abs($diff);
+			$p1add = getPointsWon($curr1, $curr2) * abs($diff);
+			$p2sub = getPointsLost($curr2, $curr1) * abs($diff);
+			svc_updateConsecutiveMatches($id1, true);
+			svc_updateConsecutiveMatches($id2, false);
+			$p1streak = svc_getConsecutiveMatches($id1);
+			$p2streak = svc_getConsecutiveMatches($id2);
+			$p1add *= svc_getStreakYieldMultiplier($p1streak);
+			$p2sub *= svc_getStreakYieldMultiplier($p2streak);
+			svc_doStreakAnnouncement($id1, $p1streak);
 			if ($pl1>0) $p1add *= 2;
 			if ($pl2>0) $p2sub *= 2;
 			$new1 = $curr1 + $p1add;
 			$new2 = $curr2 - $p2sub;
 		}
 		elseif ($diff<0){ //P2 wins
-			$p1sub = getLoserRatingDecrease($curr1, $curr2) * abs($diff);
-			$p2add = getWinnerRatingIncrease($curr2, $curr1) * abs($diff);
+			$p1sub = getPointsWon($curr1, $curr2) * abs($diff);
+			$p2add = getPointsLost($curr2, $curr1) * abs($diff);
+			svc_updateConsecutiveMatches($id1, false);
+			svc_updateConsecutiveMatches($id2, true);
+			$p1streak = svc_getConsecutiveMatches($id1);
+			$p2streak = svc_getConsecutiveMatches($id2);
+			$p1sub *= svc_getStreakYieldMultiplier($p1streak);
+			$p2add *= svc_getStreakYieldMultiplier($p2streak);
+			svc_doStreakAnnouncement($id2, $p2streak);
 			if ($pl1>0) $p1sub *= 2;
 			if ($pl2>0) $p2add *= 2;
 			$new1 = $curr1 - $p1sub;
@@ -59,11 +73,8 @@ function svc_reportSinglesScore($id1, $score1, $id2, $score2){
 		writeLog(INFO, "Player[2]: ".$p2data['user_username'].", Score: ".$score2.", Old rank: ".$curr2.", New rank: ".$new2.", PM Counter: ".$pl2);
 		writeLog(INFO, "--------");
 
-		//Perform database update
-		if (($score1 == 0) && ($score2 == 0)){
-		}
-		else {
-
+		//Perform database update, unless the match was a scoreless tie (forfeit)
+		if ($score1 > 0 or $score2 > 0){
 			if (!svc_updateRank($id1, $new1)){
 				return false;
 			}
@@ -71,7 +82,6 @@ function svc_reportSinglesScore($id1, $score1, $id2, $score2){
 				return false;
 			}
 		}
-		
 
 		$infotext = $p1data['user_username']." <h3 style=\'display: inline-block\'>".$score1."</h3><br/>".$p2data['user_username']." <h3 style=\'display: inline-block\'>".$score2."</h3>";
 
@@ -177,6 +187,7 @@ function svc_reportDoublesScore($id11, $id12, $score1, $id21, $id22, $score2){
 		writeLog(INFO, "--------");
 
 		//Perform database update
+		if ($score1 > 0 or $score2 > 0){
 		if (!svc_updateRank($id11, $new11)){
 			return false;
 		}
@@ -188,6 +199,7 @@ function svc_reportDoublesScore($id11, $id12, $score1, $id21, $id22, $score2){
 		}
 		if (!svc_updateRank($id22, $new22)){
 			return false;
+		}
 		}
 
 		$infotext = $p11data['user_username']." & ".$p12data['user_username']." <h3 style=\'display: inline-block\'>".$score1."</h3><br/>".$p21data['user_username']." & ".$p22data['user_username']." <h3 style=\'display: inline-block\'>".$score2."</h3>";
@@ -241,6 +253,69 @@ function getTeamLoserRatingDecrease($curr, $team, $opp){
 	$yield = (50 + ($diff / 12.0));
 	if ($yield <= 0) $yield = 1;
 	return $yield;
+}
+
+/* v2.5 experimental rank calculations */
+
+function getPointsWon($win, $opp){
+	$cons = floatval(svc_getSetting("RankCalcPrimConstant"));
+	writeLog(TRACE, "WIN cons=".$cons);
+	$pow = pow(abs($opp-$win), 1/3);
+	writeLog(TRACE, "WIN pow=".$pow);
+	if ($win > $opp){ //Because pow() doesn't like negative roots for some reason
+		$pow *= -1;
+	}
+	$yield = 30 + ($cons * $pow);
+	writeLog(TRACE, "WIN yield=".$yield);
+	if ($yield < 1){
+		return 1;
+	} else {
+		return $yield;
+	}
+}
+
+function getPointsLost($los, $opp){
+	$cons = floatval(svc_getSetting("RankCalcPrimConstant"));
+	$scale = floatval(svc_getSetting("RankCalcLossScalar"));
+	writeLog(TRACE, "LOSS cons=".$cons." scale=".$scale);
+	$pow = pow(abs($opp-$los), 1/3);
+	writeLog(TRACE, "LOSS pow=".$pow);
+	if ($los > $opp){ //Because pow() doesn't like negative roots for some reason
+		$pow *= -1;
+	}
+	$yield = 30 + (-1 * $cons * $pow);
+	writeLog(TRACE, "LOSS yield before scale=".$yield);
+	$yield *= $scale;
+	writeLog(TRACE, "LOSS yield=".$yield);
+	if ($yield < 1){
+		return 1;
+	} else {
+		return $yield;
+	}
+}
+
+function svc_getStreakYieldMultiplier($streak){
+	if (abs($streak) > 4){
+		$streak = 4;
+	}
+	return 0.75 + (abs($streak)*0.125);
+}
+
+function svc_doStreakAnnouncement($uuid, $streak){
+	$interval = svc_getSetting("WinningStreakInterval");
+	if ($streak == $interval){
+		$username = svc_getMemberNameByID($uuid);
+		svc_addActivityItem(5, null, $username." is on a <b>Winning Streak</b> (".$streak." wins in a row)", null);
+	} else if ($streak == $interval * 2){
+		$username = svc_getMemberNameByID($uuid);
+		svc_addActivityItem(5, null, $username." is <b>Unstoppable</b> (".$streak." wins in a row)", null);
+	} else if ($streak == $interval * 3){
+		$username = svc_getMemberNameByID($uuid);
+		svc_addActivityItem(5, null, $username." is <b>Legendary</b> (".$streak." wins in a row)", null);
+	} else if ($streak == $interval * 4){
+		$username = svc_getMemberNameByID($uuid);
+		svc_addActivityItem(5, null, $username." is <b>God-like</b> (".$streak." wins in a row)", null);
+	}
 }
 
 ?>

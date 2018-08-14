@@ -568,3 +568,747 @@
 [2018-06-28 15:43:36] [INFO   ] [SC_Webmaster_D]: --------
 [2018-06-28 15:43:36] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
 [2018-06-28 15:43:40] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-07-02 22:33:02] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-07-02 22:33:14] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-07-02 22:33:14] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-07-02 22:33:14] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-07-02 22:33:14] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-07-02 22:33:32] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-07-02 22:33:50] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=2
+[2018-07-02 22:33:52] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-07-02 22:34:03] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-07-02 22:34:10] [INFO   ] [SC_Webmaster_D]: User SC_Webmaster_D purged 1 event signup entries.
+[2018-07-02 22:34:10] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 3 rows for event id=1
+[2018-07-02 22:34:17] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 0 rows for event id=Select...
+[2018-07-02 22:34:17] [ERROR  ] [SC_Webmaster_D]: getEventDataById called for unknown event ID = Select..., no rows returned
+[2018-07-02 22:34:19] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 0 rows for event id=Select...
+[2018-07-02 22:34:19] [ERROR  ] [SC_Webmaster_D]: getEventDataById called for unknown event ID = Select..., no rows returned
+[2018-07-02 22:34:30] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-07-02 22:34:35] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 0
+[2018-07-02 22:34:35] [INFO   ] [SC_Webmaster_D]: Unlocked signup for event ID 1
+[2018-07-02 22:35:16] [INFO   ] [SC_Webmaster_D]: A new event was created by SC_Webmaster_D: Tournament Test
+[2018-07-02 22:35:16] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: NEW_EVENT
+[2018-07-02 22:35:16] [DEBUG  ] [SC_Webmaster_D]: getEventIdsByUser returned 0 results for userid=1
+[2018-07-02 22:35:16] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:35:20] [INFO   ] [SC_Webmaster_D]: User SC_Webmaster_D signed up for event with id 2
+[2018-07-02 22:35:20] [DEBUG  ] [SC_Webmaster_D]: getEventIdsByUser returned 1 results for userid=1
+[2018-07-02 22:35:20] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:35:24] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged out
+[2018-07-02 22:35:24] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:35:32] [ALERT  ] [Anonymous]: Login failed for user member1@dev from ::1 (invalid password)
+[2018-07-02 22:35:34] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:35:37] [DEBUG  ] [M_Member1_D]: Authentication successful: email=member1@dev, type=1, uuid=2, username=M_Member1_D
+[2018-07-02 22:35:37] [INFO   ] [M_Member1_D]: M_Member1_D logged in from IP address ::1
+[2018-07-02 22:35:37] [DEBUG  ] [M_Member1_D]: getAccountStatus returned 0 for user=M_Member1_D
+[2018-07-02 22:35:37] [DEBUG  ] [M_Member1_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:35:41] [DEBUG  ] [M_Member1_D]: getEventIdsByUser returned 1 results for userid=2
+[2018-07-02 22:35:41] [DEBUG  ] [M_Member1_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:35:42] [INFO   ] [M_Member1_D]: User M_Member1_D signed up for event with id 2
+[2018-07-02 22:35:42] [DEBUG  ] [M_Member1_D]: getEventIdsByUser returned 2 results for userid=2
+[2018-07-02 22:35:42] [DEBUG  ] [M_Member1_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:35:44] [INFO   ] [M_Member1_D]: M_Member1_D logged out
+[2018-07-02 22:35:44] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:35:57] [ALERT  ] [Anonymous]: Login failed for user member2@dev from ::1 (invalid password)
+[2018-07-02 22:35:58] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:36:00] [DEBUG  ] [M_Member2_D]: Authentication successful: email=member2@dev, type=1, uuid=6, username=M_Member2_D
+[2018-07-02 22:36:00] [INFO   ] [M_Member2_D]: M_Member2_D logged in from IP address ::1
+[2018-07-02 22:36:00] [DEBUG  ] [M_Member2_D]: getAccountStatus returned 0 for user=M_Member2_D
+[2018-07-02 22:36:00] [DEBUG  ] [M_Member2_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:36:02] [DEBUG  ] [M_Member2_D]: getEventIdsByUser returned 1 results for userid=6
+[2018-07-02 22:36:02] [DEBUG  ] [M_Member2_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:36:04] [INFO   ] [M_Member2_D]: User M_Member2_D signed up for event with id 2
+[2018-07-02 22:36:04] [DEBUG  ] [M_Member2_D]: getEventIdsByUser returned 2 results for userid=6
+[2018-07-02 22:36:04] [DEBUG  ] [M_Member2_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:36:05] [DEBUG  ] [M_Member2_D]: getProfilesByUsername called with search=, staffonly=
+[2018-07-02 22:36:11] [INFO   ] [M_Member2_D]: M_Member2_D logged out
+[2018-07-02 22:36:11] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:36:23] [DEBUG  ] [M_Member7_D]: Authentication successful: email=member7@dev, type=1, uuid=12, username=M_Member7_D
+[2018-07-02 22:36:23] [INFO   ] [M_Member7_D]: M_Member7_D logged in from IP address ::1
+[2018-07-02 22:36:23] [DEBUG  ] [M_Member7_D]: getAccountStatus returned 0 for user=M_Member7_D
+[2018-07-02 22:36:23] [DEBUG  ] [M_Member7_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:36:26] [DEBUG  ] [M_Member7_D]: getProfilesByUsername called with search=, staffonly=
+[2018-07-02 22:36:28] [DEBUG  ] [M_Member7_D]: getEventIdsByUser returned 0 results for userid=12
+[2018-07-02 22:36:28] [DEBUG  ] [M_Member7_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:36:29] [INFO   ] [M_Member7_D]: User M_Member7_D signed up for event with id 2
+[2018-07-02 22:36:29] [DEBUG  ] [M_Member7_D]: getEventIdsByUser returned 1 results for userid=12
+[2018-07-02 22:36:29] [DEBUG  ] [M_Member7_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:36:32] [INFO   ] [M_Member7_D]: M_Member7_D logged out
+[2018-07-02 22:36:32] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:36:43] [ALERT  ] [Anonymous]: Login failed for user root@dev from ::1 (invalid password)
+[2018-07-02 22:36:44] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:36:46] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-07-02 22:36:46] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-07-02 22:36:46] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-07-02 22:36:46] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:37:09] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 2
+[2018-07-02 22:37:09] [INFO   ] [SC_Webmaster_D]: Site setting [CompMatchRules] changed to 
+[2018-07-02 22:37:09] [INFO   ] [SC_Webmaster_D]: Site setting [EventIsRanked] changed to 1
+[2018-07-02 22:37:09] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyBracketStyle] changed to 0
+[2018-07-02 22:37:09] [INFO   ] [SC_Webmaster_D]: Site setting [MatchMakingEvent] changed to 1
+[2018-07-02 22:37:11] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 3 rows for event id=1
+[2018-07-02 22:37:19] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged out
+[2018-07-02 22:37:19] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:37:40] [DEBUG  ] [M_Member7_D]: Authentication successful: email=member7@dev, type=1, uuid=12, username=M_Member7_D
+[2018-07-02 22:37:40] [INFO   ] [M_Member7_D]: M_Member7_D logged in from IP address ::1
+[2018-07-02 22:37:40] [DEBUG  ] [M_Member7_D]: getAccountStatus returned 0 for user=M_Member7_D
+[2018-07-02 22:37:41] [DEBUG  ] [M_Member7_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:37:44] [DEBUG  ] [M_Member7_D]: getEventIdsByUser returned 1 results for userid=12
+[2018-07-02 22:37:44] [DEBUG  ] [M_Member7_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:37:46] [INFO   ] [M_Member7_D]: User M_Member7_D signed up for event with id 1
+[2018-07-02 22:37:46] [DEBUG  ] [M_Member7_D]: getEventIdsByUser returned 2 results for userid=12
+[2018-07-02 22:37:46] [DEBUG  ] [M_Member7_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-02 22:37:49] [INFO   ] [M_Member7_D]: M_Member7_D logged out
+[2018-07-02 22:37:49] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:37:57] [ALERT  ] [Anonymous]: Login failed for user root@dev from ::1 (invalid password)
+[2018-07-02 22:37:59] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:38:00] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-07-02 22:38:00] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-07-02 22:38:00] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-07-02 22:38:00] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-02 22:38:04] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-07-02 22:38:09] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=2
+[2018-07-02 22:38:09] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 4
+[2018-07-02 22:38:21] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-07-02 22:38:24] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=0
+[2018-07-02 22:38:24] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 4
+[2018-07-02 22:38:26] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-07-02 22:38:34] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=0
+[2018-07-02 22:38:34] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 4
+[2018-07-02 22:39:38] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-07-02 22:40:38] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=0
+[2018-07-02 22:40:38] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 4
+[2018-07-02 22:41:24] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-07-02 22:42:10] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=0
+[2018-07-02 22:42:10] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 4
+[2018-07-02 22:43:13] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-07-02 22:43:16] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=1 doubleElim=0 seedOrder=0
+[2018-07-02 22:43:16] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 4
+[2018-07-02 22:43:16] [TRACE  ] [SC_Webmaster_D]: Round array: 0,0,Semifinals
+0,1,Final
+[2018-07-02 22:43:16] [TRACE  ] [SC_Webmaster_D]: Empty bracket: 1,0,0,S:1,S:2,0
+2,0,0,S:3,S:4,0
+3,0,0,W:1,W:2,2
+[2018-07-02 22:43:16] [TRACE  ] [SC_Webmaster_D]: Filled bracket: 1,0,0,M_Member1_D,A_Admin_D,0
+2,0,0,M_Member2_D,M_Member7_D,0
+3,0,0,W:1,W:2,2
+[2018-07-02 22:43:17] [INFO   ] [SC_Webmaster_D]: Bracket builder finished successfully.
+[2018-07-02 22:43:17] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 1
+[2018-07-02 22:43:17] [INFO   ] [SC_Webmaster_D]: Locked signup for event ID 1
+[2018-07-02 22:43:27] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-02 22:43:31] [INFO   ] [SC_Webmaster_D]: Tourney match 1 was started.
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 1
+[2018-07-02 22:43:37] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:1, L:1
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: Tourney match 1 was finalized. Updating the bracket.
+[2018-07-02 22:43:37] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 715, New rank: 821, PM Counter: 0
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: Player[2]: A_Admin_D, Score: 0, Old rank: 750, New rank: 644, PM Counter: 0
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 821 in database.
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: User ID 5 rank was updated to 644 in database.
+[2018-07-02 22:43:37] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-02 22:43:37] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-02 22:43:39] [INFO   ] [SC_Webmaster_D]: Tourney match 2 was started.
+[2018-07-02 22:43:46] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 2
+[2018-07-02 22:43:46] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:2, L:2
+[2018-07-02 22:43:46] [INFO   ] [SC_Webmaster_D]: Tourney match 2 was finalized. Updating the bracket.
+[2018-07-02 22:43:46] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-02 22:43:46] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-02 22:43:46] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-02 22:43:46] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-02 22:43:46] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member2_D, Score: 0, Old rank: 883, New rank: 883, PM Counter: 0
+[2018-07-02 22:43:46] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member7_D, Score: 0, Old rank: 1200, New rank: 1200, PM Counter: 3
+[2018-07-02 22:43:46] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-02 22:43:46] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-02 22:43:46] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-02 22:43:48] [INFO   ] [SC_Webmaster_D]: Tourney match 3 was started.
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 3
+[2018-07-02 22:43:55] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:3, L:3
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: Tourney match 3 was finalized. Updating the bracket.
+[2018-07-02 22:43:55] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 3, Old rank: 821, New rank: 931, PM Counter: 0
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member2_D, Score: 1, Old rank: 883, New rank: 773, PM Counter: 0
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 931 in database.
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: User ID 6 rank was updated to 773 in database.
+[2018-07-02 22:43:55] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-02 22:43:55] [TRACE  ] [SC_Webmaster_D]: isFinal: 2, winner slot: 1
+[2018-07-02 22:44:01] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 0
+[2018-07-02 22:44:01] [INFO   ] [SC_Webmaster_D]: Unlocked signup for event ID 1
+[2018-07-02 22:44:04] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-07-04 09:03:15] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-04 09:03:15] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-04 09:03:19] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 25.44.18.62
+[2018-07-05 17:49:20] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-05 17:49:20] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-05 17:49:23] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 25.44.18.62
+[2018-07-05 17:59:06] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-05 17:59:06] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-05 17:59:09] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 25.44.18.62
+[2018-07-06 18:02:58] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-06 18:02:58] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-06 18:03:02] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 25.44.18.62
+[2018-07-07 22:03:35] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-07 22:03:35] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-07 22:03:42] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 25.44.18.62
+[2018-07-09 16:06:31] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 16:06:31] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 16:06:35] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 25.44.18.62
+[2018-07-09 17:33:16] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 17:33:18] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 17:33:21] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-07-09 17:33:21] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-07-09 17:33:21] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-07-09 17:33:21] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 17:37:22] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 17:37:23] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 17:38:43] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 17:45:16] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 17:45:39] [SEVERE ] [SC_Webmaster_D]: getProfilesByUsername FAILED with search=, staffonly=
+[2018-07-09 17:45:39] [SEVERE ] [SC_Webmaster_D]: Query: SELECT p.prof_first_name, p.prof_last_name, p.prof_main_character, p.prof_catchphrase, a.user_username, a.user_type, r.rank_consec_games  
+	FROM user_profile p 
+	INNER JOIN user_authentication a on p.UUID = a.UUID 
+	INNER JOIN user_ranking r on r.UUID = p.UUID 
+	WHERE a.user_locked in (0, 1, 4)  AND a.user_type < 5 ORDER BY a.user_username ASC
+[2018-07-09 17:45:39] [SEVERE ] [SC_Webmaster_D]: MySQL Error: Unknown column 'r.rank_consec_games' in 'field list'
+[2018-07-09 17:51:20] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-07-09 17:51:20] [INFO   ] [SC_Webmaster_D]: 404 - NOT FOUND (/resource/character/ultimate/ike.png), errorpage served to ::1
+[2018-07-09 17:51:20] [INFO   ] [SC_Webmaster_D]: 404 - NOT FOUND (/resource/character/ultimate/ganondorf.png), errorpage served to ::1
+[2018-07-09 17:51:20] [INFO   ] [SC_Webmaster_D]: 404 - NOT FOUND (/resource/character/ultimate/toonlink.png), errorpage served to ::1
+[2018-07-09 17:51:20] [INFO   ] [SC_Webmaster_D]: 404 - NOT FOUND (/resource/character/ultimate/snake.png), errorpage served to ::1
+[2018-07-09 17:51:20] [INFO   ] [SC_Webmaster_D]: 404 - NOT FOUND (/resource/character/ultimate/shulk.png), errorpage served to ::1
+[2018-07-09 17:51:20] [INFO   ] [SC_Webmaster_D]: 404 - NOT FOUND (/resource/character/ultimate/littlemac.png), errorpage served to ::1
+[2018-07-09 17:51:20] [INFO   ] [SC_Webmaster_D]: 404 - NOT FOUND (/resource/character/ultimate/zelda.png), errorpage served to ::1
+[2018-07-09 17:51:21] [INFO   ] [SC_Webmaster_D]: 404 - NOT FOUND (/resource/character/ultimate/corrin.png), errorpage served to ::1
+[2018-07-09 17:51:21] [INFO   ] [SC_Webmaster_D]: 404 - NOT FOUND (/resource/character/ultimate/bowser.png), errorpage served to ::1
+[2018-07-09 17:53:09] [DEBUG  ] [SC_Webmaster_D]: getProfilesByUsername called with search=, staffonly=
+[2018-07-09 17:53:29] [TRACE  ] [SC_Webmaster_D]: ProfileUpdate: id_nnw= = 
+[2018-07-09 17:53:29] [TRACE  ] [SC_Webmaster_D]: ProfileUpdate: catch= = 
+[2018-07-09 17:53:29] [TRACE  ] [SC_Webmaster_D]: ProfileDetails Query: UPDATE user_profile SET 
+	prof_main_character = '58', 
+	prof_catchphrase = '', 
+	prof_connect_nintendo = '',
+	prof_connect_xbox = '',
+	prof_connect_psn = '',
+	prof_connect_steam = '',
+	prof_connect_origin = '',
+	prof_connect_other_name = '',
+	prof_connect_other_value = '' 
+	WHERE uuid = '1'
+[2018-07-09 17:53:29] [INFO   ] [SC_Webmaster_D]: User SC_Webmaster_D updated profile information
+[2018-07-09 17:53:29] [DEBUG  ] [SC_Webmaster_D]: Cancelling setUsername as there was no change
+[2018-07-09 17:57:13] [INFO   ] [SC_Webmaster_D]: Site setting [TwitchChannelID] changed to ZeRo
+[2018-07-09 17:57:40] [INFO   ] [SC_Webmaster_D]: Site setting [TwitchOnAir] changed to 0
+[2018-07-09 17:59:10] [INFO   ] [SC_Webmaster_D]: A new event was created by SC_Webmaster_D: Tournament Test 2
+[2018-07-09 17:59:10] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: NEW_EVENT
+[2018-07-09 17:59:11] [TRACE  ] [SC_Webmaster_D]: getEventIdsByUser returned 1 results for userid=1
+[2018-07-09 17:59:11] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-09 17:59:49] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 2
+[2018-07-09 17:59:49] [INFO   ] [SC_Webmaster_D]: Site setting [CompMatchRules] changed to 
+[2018-07-09 17:59:49] [INFO   ] [SC_Webmaster_D]: Site setting [EventIsRanked] changed to 1
+[2018-07-09 17:59:49] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyBracketStyle] changed to 1
+[2018-07-09 17:59:49] [INFO   ] [SC_Webmaster_D]: Site setting [MatchMakingEvent] changed to 1
+[2018-07-09 18:02:05] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-07-09 18:02:18] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 0
+[2018-07-09 18:02:19] [INFO   ] [SC_Webmaster_D]: Unlocked signup for event ID 1
+[2018-07-09 18:02:29] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 2
+[2018-07-09 18:02:29] [INFO   ] [SC_Webmaster_D]: Site setting [CompMatchRules] changed to 
+[2018-07-09 18:02:29] [INFO   ] [SC_Webmaster_D]: Site setting [EventIsRanked] changed to 1
+[2018-07-09 18:02:29] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyBracketStyle] changed to 1
+[2018-07-09 18:02:29] [INFO   ] [SC_Webmaster_D]: Site setting [MatchMakingEvent] changed to 3
+[2018-07-09 18:02:32] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-07-09 18:02:38] [INFO   ] [SC_Webmaster_D]: Starting automatic bracket generation... eventID=3 doubleElim=1 seedOrder=2
+[2018-07-09 18:02:38] [DEBUG  ] [SC_Webmaster_D]: Got entrant set for event, numPlayers = 9
+[2018-07-09 18:02:38] [TRACE  ] [SC_Webmaster_D]: Round array: 0,0,Round 1
+0,1,Round 2
+0,2,Winners Semifinals
+0,3,Winners Final
+0,4,Grand Final
+0,5,Grand Final (if necessary)
+1,0,Losers Round 1
+1,1,Losers Round 2
+1,2,Losers Round 3
+1,3,Losers Semifinal
+1,4,Losers Final
+[2018-07-09 18:02:38] [TRACE  ] [SC_Webmaster_D]: Empty bracket: 1,0,0,S:1,S:2,0
+2,0,1,S:3,S:4,0
+3,0,1,S:5,S:6,0
+4,0,1,S:7,S:8,0
+5,0,1,W:1,S:9,0
+6,1,0,L:1,L:2,0
+7,1,1,L:4,L:5,0
+8,1,1,W:6,L:3,0
+9,0,2,W:2,W:3,0
+10,0,2,W:4,W:5,0
+11,1,2,W:7,L:9,0
+12,1,2,W:8,L:10,0
+13,0,3,W:9,W:10,0
+14,1,3,W:11,W:12,0
+15,1,4,W:14,L:13,0
+16,0,4,W:13,W:15,1
+17,0,5,W:16,L:16,2
+[2018-07-09 18:02:38] [TRACE  ] [SC_Webmaster_D]: Filled bracket: 1,0,0,S_Scorekeeper_D,M_Member3_D,0
+2,0,1,M_Member6_D,A_Admin_D,0
+3,0,1,O_Officer_D,M_Member4_D,0
+4,0,1,M_Member2_D,M_Member5_D,0
+5,0,1,W:1,M_Member1_D,0
+6,1,0,L:1,L:2,0
+7,1,1,L:4,L:5,0
+8,1,1,W:6,L:3,0
+9,0,2,W:2,W:3,0
+10,0,2,W:4,W:5,0
+11,1,2,W:7,L:9,0
+12,1,2,W:8,L:10,0
+13,0,3,W:9,W:10,0
+14,1,3,W:11,W:12,0
+15,1,4,W:14,L:13,0
+16,0,4,W:13,W:15,1
+17,0,5,W:16,L:16,2
+[2018-07-09 18:02:39] [INFO   ] [SC_Webmaster_D]: Bracket builder finished successfully.
+[2018-07-09 18:02:39] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 1
+[2018-07-09 18:02:39] [INFO   ] [SC_Webmaster_D]: Locked signup for event ID 3
+[2018-07-09 18:03:53] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:03:57] [INFO   ] [SC_Webmaster_D]: Tourney match 1 was started.
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 1
+[2018-07-09 18:04:10] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:1, L:1
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: Tourney match 1 was finalized. Updating the bracket.
+[2018-07-09 18:04:10] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:04:10] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:04:10] [TRACE  ] [SC_Webmaster_D]: WIN pow=8.7936593443164
+[2018-07-09 18:04:10] [TRACE  ] [SC_Webmaster_D]: WIN yield=61.278105366183
+[2018-07-09 18:04:10] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:04:10] [TRACE  ] [SC_Webmaster_D]: LOSS pow=8.7936593443164
+[2018-07-09 18:04:10] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=61.278105366183
+[2018-07-09 18:04:10] [TRACE  ] [SC_Webmaster_D]: LOSS yield=45.958579024638
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: Player[1]: S_Scorekeeper_D, Score: 2, Old rank: 573, New rank: 680, PM Counter: 0
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member3_D, Score: 0, Old rank: 1253, New rank: 1173, PM Counter: 0
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: User ID 3 rank was updated to 680 in database.
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: User ID 7 rank was updated to 1173 in database.
+[2018-07-09 18:04:10] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:04:10] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-09 18:04:15] [INFO   ] [SC_Webmaster_D]: Tourney match 2 was started.
+[2018-07-09 18:04:16] [INFO   ] [SC_Webmaster_D]: Tourney match 3 was started.
+[2018-07-09 18:04:17] [INFO   ] [SC_Webmaster_D]: Tourney match 4 was started.
+[2018-07-09 18:04:19] [INFO   ] [SC_Webmaster_D]: Tourney match 5 was started.
+[2018-07-09 18:04:33] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 2
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 2
+[2018-07-09 18:04:41] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:2, L:2
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: Tourney match 2 was finalized. Updating the bracket.
+[2018-07-09 18:04:41] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:04:41] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:04:41] [TRACE  ] [SC_Webmaster_D]: WIN pow=9.4801061071639
+[2018-07-09 18:04:41] [TRACE  ] [SC_Webmaster_D]: WIN yield=-3.7197230518287
+[2018-07-09 18:04:41] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:04:41] [TRACE  ] [SC_Webmaster_D]: LOSS pow=9.4801061071639
+[2018-07-09 18:04:41] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=-3.7197230518287
+[2018-07-09 18:04:41] [TRACE  ] [SC_Webmaster_D]: LOSS yield=-2.7897922888715
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member6_D, Score: 1, Old rank: 1496, New rank: 1495, PM Counter: 0
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: Player[2]: A_Admin_D, Score: 2, Old rank: 644, New rank: 645, PM Counter: 0
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: User ID 10 rank was updated to 1495 in database.
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: User ID 5 rank was updated to 645 in database.
+[2018-07-09 18:04:41] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:04:41] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 2
+[2018-07-09 18:04:47] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 3
+[2018-07-09 18:05:00] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 3
+[2018-07-09 18:05:05] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 3
+[2018-07-09 18:05:05] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:3, L:3
+[2018-07-09 18:05:05] [INFO   ] [SC_Webmaster_D]: Tourney match 3 was finalized. Updating the bracket.
+[2018-07-09 18:05:06] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:05:06] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:05:06] [TRACE  ] [SC_Webmaster_D]: WIN pow=8.1733020255631
+[2018-07-09 18:05:06] [TRACE  ] [SC_Webmaster_D]: WIN yield=59.071560761611
+[2018-07-09 18:05:06] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:05:06] [TRACE  ] [SC_Webmaster_D]: LOSS pow=8.1733020255631
+[2018-07-09 18:05:06] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=59.071560761611
+[2018-07-09 18:05:06] [TRACE  ] [SC_Webmaster_D]: LOSS yield=44.303670571208
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: Player[1]: O_Officer_D, Score: 2, Old rank: 909, New rank: 1012, PM Counter: 0
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member4_D, Score: 0, Old rank: 1455, New rank: 1377, PM Counter: 0
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: User ID 4 rank was updated to 1012 in database.
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: User ID 8 rank was updated to 1377 in database.
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:05:06] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: USER_RANK
+[2018-07-09 18:05:06] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 4
+[2018-07-09 18:05:12] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:4, L:4
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: Tourney match 4 was finalized. Updating the bracket.
+[2018-07-09 18:05:12] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:05:12] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:05:12] [TRACE  ] [SC_Webmaster_D]: WIN pow=9.619001716077
+[2018-07-09 18:05:12] [TRACE  ] [SC_Webmaster_D]: WIN yield=64.213759870902
+[2018-07-09 18:05:12] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:05:12] [TRACE  ] [SC_Webmaster_D]: LOSS pow=9.619001716077
+[2018-07-09 18:05:12] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=64.213759870902
+[2018-07-09 18:05:12] [TRACE  ] [SC_Webmaster_D]: LOSS yield=48.160319903177
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member2_D, Score: 0, Old rank: 773, New rank: 661, PM Counter: 0
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member5_D, Score: 2, Old rank: 1663, New rank: 1747, PM Counter: 0
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: User ID 6 rank was updated to 661 in database.
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: User ID 9 rank was updated to 1747 in database.
+[2018-07-09 18:05:12] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:05:12] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 2
+[2018-07-09 18:05:20] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 5
+[2018-07-09 18:05:20] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:5, L:5
+[2018-07-09 18:05:20] [INFO   ] [SC_Webmaster_D]: Tourney match 5 was finalized. Updating the bracket.
+[2018-07-09 18:05:20] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:05:20] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:05:20] [TRACE  ] [SC_Webmaster_D]: WIN pow=6.3079935486633
+[2018-07-09 18:05:20] [TRACE  ] [SC_Webmaster_D]: WIN yield=52.436858097286
+[2018-07-09 18:05:20] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:05:20] [TRACE  ] [SC_Webmaster_D]: LOSS pow=6.3079935486633
+[2018-07-09 18:05:20] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=52.436858097286
+[2018-07-09 18:05:20] [TRACE  ] [SC_Webmaster_D]: LOSS yield=39.327643572964
+[2018-07-09 18:05:20] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:05:20] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:05:20] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:05:20] [INFO   ] [SC_Webmaster_D]: Player[1]: S_Scorekeeper_D, Score: 2, Old rank: 680, New rank: 732, PM Counter: 0
+[2018-07-09 18:05:20] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member1_D, Score: 1, Old rank: 931, New rank: 897, PM Counter: 0
+[2018-07-09 18:05:20] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:05:20] [INFO   ] [SC_Webmaster_D]: User ID 3 rank was updated to 732 in database.
+[2018-07-09 18:05:21] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 897 in database.
+[2018-07-09 18:05:21] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:05:21] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-09 18:05:53] [INFO   ] [SC_Webmaster_D]: Tourney match 6 was started.
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 6
+[2018-07-09 18:05:58] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:6, L:6
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: Tourney match 6 was finalized. Updating the bracket.
+[2018-07-09 18:05:58] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:05:58] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:05:58] [TRACE  ] [SC_Webmaster_D]: WIN pow=6.8541240018326
+[2018-07-09 18:05:58] [TRACE  ] [SC_Webmaster_D]: WIN yield=54.37938568325
+[2018-07-09 18:05:58] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:05:58] [TRACE  ] [SC_Webmaster_D]: LOSS pow=6.8541240018326
+[2018-07-09 18:05:58] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=54.37938568325
+[2018-07-09 18:05:58] [TRACE  ] [SC_Webmaster_D]: LOSS yield=40.784539262438
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member3_D, Score: 2, Old rank: 1173, New rank: 1255, PM Counter: 0
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member6_D, Score: 0, Old rank: 1495, New rank: 1413, PM Counter: 0
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: User ID 7 rank was updated to 1255 in database.
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: User ID 10 rank was updated to 1413 in database.
+[2018-07-09 18:05:58] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:05:58] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-09 18:06:00] [INFO   ] [SC_Webmaster_D]: Tourney match 7 was started.
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 7
+[2018-07-09 18:06:07] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:7, L:7
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: Tourney match 7 was finalized. Updating the bracket.
+[2018-07-09 18:06:07] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:06:07] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:06:07] [TRACE  ] [SC_Webmaster_D]: WIN pow=6.1797466058656
+[2018-07-09 18:06:07] [TRACE  ] [SC_Webmaster_D]: WIN yield=51.980697444177
+[2018-07-09 18:06:07] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:06:07] [TRACE  ] [SC_Webmaster_D]: LOSS pow=6.1797466058656
+[2018-07-09 18:06:07] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=51.980697444177
+[2018-07-09 18:06:07] [TRACE  ] [SC_Webmaster_D]: LOSS yield=38.985523083133
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member2_D, Score: 1, Old rank: 661, New rank: 609, PM Counter: 0
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member1_D, Score: 2, Old rank: 897, New rank: 926, PM Counter: 0
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: User ID 6 rank was updated to 609 in database.
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 926 in database.
+[2018-07-09 18:06:07] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:06:07] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 2
+[2018-07-09 18:06:10] [INFO   ] [SC_Webmaster_D]: Tourney match 8 was started.
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 8
+[2018-07-09 18:06:16] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:8, L:8
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: Tourney match 8 was finalized. Updating the bracket.
+[2018-07-09 18:06:16] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:06:16] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:06:16] [TRACE  ] [SC_Webmaster_D]: WIN pow=4.9596756638423
+[2018-07-09 18:06:16] [TRACE  ] [SC_Webmaster_D]: WIN yield=47.641035650991
+[2018-07-09 18:06:16] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:06:16] [TRACE  ] [SC_Webmaster_D]: LOSS pow=4.9596756638423
+[2018-07-09 18:06:16] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=47.641035650991
+[2018-07-09 18:06:16] [TRACE  ] [SC_Webmaster_D]: LOSS yield=35.730776738243
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member3_D, Score: 2, Old rank: 1255, New rank: 1338, PM Counter: 0
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member4_D, Score: 0, Old rank: 1377, New rank: 1306, PM Counter: 0
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: User ID 7 rank was updated to 1338 in database.
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: User ID 8 rank was updated to 1306 in database.
+[2018-07-09 18:06:16] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:06:16] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-09 18:06:25] [INFO   ] [SC_Webmaster_D]: Tourney match 9 was started.
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 9
+[2018-07-09 18:06:33] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:9, L:9
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: Tourney match 9 was finalized. Updating the bracket.
+[2018-07-09 18:06:33] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:06:33] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:06:33] [TRACE  ] [SC_Webmaster_D]: WIN pow=7.1595988248328
+[2018-07-09 18:06:33] [TRACE  ] [SC_Webmaster_D]: WIN yield=55.465926942856
+[2018-07-09 18:06:33] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:06:33] [TRACE  ] [SC_Webmaster_D]: LOSS pow=7.1595988248328
+[2018-07-09 18:06:33] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=55.465926942856
+[2018-07-09 18:06:33] [TRACE  ] [SC_Webmaster_D]: LOSS yield=41.599445207142
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: Player[1]: A_Admin_D, Score: 2, Old rank: 645, New rank: 700, PM Counter: 0
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: Player[2]: O_Officer_D, Score: 1, Old rank: 1012, New rank: 981, PM Counter: 0
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: User ID 5 rank was updated to 700 in database.
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: User ID 4 rank was updated to 981 in database.
+[2018-07-09 18:06:33] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:06:33] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-09 18:06:35] [INFO   ] [SC_Webmaster_D]: Tourney match 10 was started.
+[2018-07-09 18:06:40] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 10
+[2018-07-09 18:06:40] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:10, L:10
+[2018-07-09 18:06:40] [INFO   ] [SC_Webmaster_D]: Tourney match 10 was finalized. Updating the bracket.
+[2018-07-09 18:06:40] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:06:40] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:06:40] [TRACE  ] [SC_Webmaster_D]: WIN pow=10.049752062727
+[2018-07-09 18:06:40] [TRACE  ] [SC_Webmaster_D]: WIN yield=-5.7458927636475
+[2018-07-09 18:06:40] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:06:40] [TRACE  ] [SC_Webmaster_D]: LOSS pow=10.049752062727
+[2018-07-09 18:06:40] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=-5.7458927636475
+[2018-07-09 18:06:40] [TRACE  ] [SC_Webmaster_D]: LOSS yield=-4.3094195727356
+[2018-07-09 18:06:41] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:41] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:06:41] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:06:41] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member5_D, Score: 1, Old rank: 1747, New rank: 1746, PM Counter: 0
+[2018-07-09 18:06:41] [INFO   ] [SC_Webmaster_D]: Player[2]: S_Scorekeeper_D, Score: 2, Old rank: 732, New rank: 733, PM Counter: 0
+[2018-07-09 18:06:41] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:41] [INFO   ] [SC_Webmaster_D]: User ID 9 rank was updated to 1746 in database.
+[2018-07-09 18:06:41] [INFO   ] [SC_Webmaster_D]: User ID 3 rank was updated to 733 in database.
+[2018-07-09 18:06:41] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:06:41] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 2
+[2018-07-09 18:06:43] [INFO   ] [SC_Webmaster_D]: Tourney match 11 was started.
+[2018-07-09 18:06:50] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 11
+[2018-07-09 18:06:50] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:11, L:11
+[2018-07-09 18:06:50] [INFO   ] [SC_Webmaster_D]: Tourney match 11 was finalized. Updating the bracket.
+[2018-07-09 18:06:51] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:06:51] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:06:51] [TRACE  ] [SC_Webmaster_D]: WIN pow=3.8029524607614
+[2018-07-09 18:06:51] [TRACE  ] [SC_Webmaster_D]: WIN yield=43.526694987015
+[2018-07-09 18:06:51] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:06:51] [TRACE  ] [SC_Webmaster_D]: LOSS pow=3.8029524607614
+[2018-07-09 18:06:51] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=43.526694987015
+[2018-07-09 18:06:51] [TRACE  ] [SC_Webmaster_D]: LOSS yield=32.645021240261
+[2018-07-09 18:06:51] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:51] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:06:51] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:06:51] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 926, New rank: 964, PM Counter: 0
+[2018-07-09 18:06:51] [INFO   ] [SC_Webmaster_D]: Player[2]: O_Officer_D, Score: 1, Old rank: 981, New rank: 952, PM Counter: 0
+[2018-07-09 18:06:51] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:06:51] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 964 in database.
+[2018-07-09 18:06:51] [INFO   ] [SC_Webmaster_D]: User ID 4 rank was updated to 952 in database.
+[2018-07-09 18:06:51] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:06:51] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-09 18:06:55] [INFO   ] [SC_Webmaster_D]: Tourney match 12 was started.
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 12
+[2018-07-09 18:07:01] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:12, L:12
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: Tourney match 12 was finalized. Updating the bracket.
+[2018-07-09 18:07:01] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:07:01] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:07:01] [TRACE  ] [SC_Webmaster_D]: WIN pow=7.4168595385324
+[2018-07-09 18:07:01] [TRACE  ] [SC_Webmaster_D]: WIN yield=56.380975774589
+[2018-07-09 18:07:01] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:07:01] [TRACE  ] [SC_Webmaster_D]: LOSS pow=7.4168595385324
+[2018-07-09 18:07:01] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=56.380975774589
+[2018-07-09 18:07:01] [TRACE  ] [SC_Webmaster_D]: LOSS yield=42.285731830942
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member3_D, Score: 0, Old rank: 1338, New rank: 1253, PM Counter: 0
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member5_D, Score: 2, Old rank: 1746, New rank: 1820, PM Counter: 0
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: User ID 7 rank was updated to 1253 in database.
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: User ID 9 rank was updated to 1820 in database.
+[2018-07-09 18:07:01] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:07:01] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 2
+[2018-07-09 18:07:04] [INFO   ] [SC_Webmaster_D]: Tourney match 13 was started.
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 13
+[2018-07-09 18:07:11] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:13, L:13
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: Tourney match 13 was finalized. Updating the bracket.
+[2018-07-09 18:07:11] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:07:11] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:07:11] [TRACE  ] [SC_Webmaster_D]: WIN pow=3.2075343299958
+[2018-07-09 18:07:11] [TRACE  ] [SC_Webmaster_D]: WIN yield=41.408856405622
+[2018-07-09 18:07:11] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:07:11] [TRACE  ] [SC_Webmaster_D]: LOSS pow=3.2075343299958
+[2018-07-09 18:07:11] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=41.408856405622
+[2018-07-09 18:07:11] [TRACE  ] [SC_Webmaster_D]: LOSS yield=31.056642304216
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: Player[1]: A_Admin_D, Score: 3, Old rank: 700, New rank: 793, PM Counter: 0
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: Player[2]: S_Scorekeeper_D, Score: 1, Old rank: 733, New rank: 686, PM Counter: 0
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: User ID 5 rank was updated to 793 in database.
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: User ID 3 rank was updated to 686 in database.
+[2018-07-09 18:07:11] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:07:11] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-09 18:07:13] [INFO   ] [SC_Webmaster_D]: Tourney match 14 was started.
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 14
+[2018-07-09 18:07:19] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:14, L:14
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: Tourney match 14 was finalized. Updating the bracket.
+[2018-07-09 18:07:19] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:07:19] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:07:19] [TRACE  ] [SC_Webmaster_D]: WIN pow=9.4949187970468
+[2018-07-09 18:07:19] [TRACE  ] [SC_Webmaster_D]: WIN yield=63.772410204784
+[2018-07-09 18:07:19] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:07:19] [TRACE  ] [SC_Webmaster_D]: LOSS pow=9.4949187970468
+[2018-07-09 18:07:19] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=63.772410204784
+[2018-07-09 18:07:19] [TRACE  ] [SC_Webmaster_D]: LOSS yield=47.829307653588
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member1_D, Score: 2, Old rank: 964, New rank: 916, PM Counter: 0
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member5_D, Score: 3, Old rank: 1820, New rank: 1868, PM Counter: 0
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: User ID 2 rank was updated to 916 in database.
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: User ID 9 rank was updated to 1868 in database.
+[2018-07-09 18:07:19] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:07:19] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 2
+[2018-07-09 18:07:21] [INFO   ] [SC_Webmaster_D]: Tourney match 15 was started.
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 15
+[2018-07-09 18:07:28] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:15, L:15
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: Tourney match 15 was finalized. Updating the bracket.
+[2018-07-09 18:07:28] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:07:28] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:07:28] [TRACE  ] [SC_Webmaster_D]: WIN pow=10.573184862468
+[2018-07-09 18:07:28] [TRACE  ] [SC_Webmaster_D]: WIN yield=-7.6076872250168
+[2018-07-09 18:07:28] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:07:28] [TRACE  ] [SC_Webmaster_D]: LOSS pow=10.573184862468
+[2018-07-09 18:07:28] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=-7.6076872250168
+[2018-07-09 18:07:28] [TRACE  ] [SC_Webmaster_D]: LOSS yield=-5.7057654187626
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member5_D, Score: 3, Old rank: 1868, New rank: 1871, PM Counter: 0
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: Player[2]: S_Scorekeeper_D, Score: 0, Old rank: 686, New rank: 683, PM Counter: 0
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: User ID 9 rank was updated to 1871 in database.
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: User ID 3 rank was updated to 683 in database.
+[2018-07-09 18:07:28] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:07:28] [TRACE  ] [SC_Webmaster_D]: isFinal: 0, winner slot: 1
+[2018-07-09 18:07:30] [INFO   ] [SC_Webmaster_D]: Tourney match 16 was started.
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 16
+[2018-07-09 18:07:39] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:16, L:16
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: Tourney match 16 was finalized. Updating the bracket.
+[2018-07-09 18:07:39] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:07:39] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:07:39] [TRACE  ] [SC_Webmaster_D]: WIN pow=10.253518522376
+[2018-07-09 18:07:39] [TRACE  ] [SC_Webmaster_D]: WIN yield=66.47066825761
+[2018-07-09 18:07:39] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:07:39] [TRACE  ] [SC_Webmaster_D]: LOSS pow=10.253518522376
+[2018-07-09 18:07:39] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=66.47066825761
+[2018-07-09 18:07:39] [TRACE  ] [SC_Webmaster_D]: LOSS yield=49.853001193208
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: Player[1]: A_Admin_D, Score: 2, Old rank: 793, New rank: 743, PM Counter: 0
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: Player[2]: M_Member5_D, Score: 3, Old rank: 1871, New rank: 1933, PM Counter: 0
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: User ID 5 rank was updated to 743 in database.
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: User ID 9 rank was updated to 1933 in database.
+[2018-07-09 18:07:39] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:07:39] [TRACE  ] [SC_Webmaster_D]: isFinal: 1, winner slot: 2
+[2018-07-09 18:07:41] [INFO   ] [SC_Webmaster_D]: Tourney match 17 was started.
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: Updated scores on tourney match 17
+[2018-07-09 18:07:48] [TRACE  ] [SC_Webmaster_D]: Reference strings are W:17, L:17
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: Tourney match 17 was finalized. Updating the bracket.
+[2018-07-09 18:07:48] [DEBUG  ] [SC_Webmaster_D]: Successfully called RefreshMatchStatuses
+[2018-07-09 18:07:48] [TRACE  ] [SC_Webmaster_D]: WIN cons=3.556893
+[2018-07-09 18:07:48] [TRACE  ] [SC_Webmaster_D]: WIN pow=10.596985021248
+[2018-07-09 18:07:48] [TRACE  ] [SC_Webmaster_D]: WIN yield=-7.6923418431824
+[2018-07-09 18:07:48] [TRACE  ] [SC_Webmaster_D]: LOSS cons=3.556893 scale=0.75
+[2018-07-09 18:07:48] [TRACE  ] [SC_Webmaster_D]: LOSS pow=10.596985021248
+[2018-07-09 18:07:48] [TRACE  ] [SC_Webmaster_D]: LOSS yield before scale=-7.6923418431824
+[2018-07-09 18:07:48] [TRACE  ] [SC_Webmaster_D]: LOSS yield=-5.7692563823868
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: USER_RANK
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: A match was recorded by SC_Webmaster_D
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: Context: FREEPLAY, Type: SINGLES
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: Player[1]: M_Member5_D, Score: 3, Old rank: 1933, New rank: 1936, PM Counter: 0
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: Player[2]: A_Admin_D, Score: 1, Old rank: 743, New rank: 741, PM Counter: 0
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: --------
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: User ID 9 rank was updated to 1936 in database.
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: User ID 5 rank was updated to 741 in database.
+[2018-07-09 18:07:48] [INFO   ] [SC_Webmaster_D]: Posted to activity feed with type: RESULTS_FREEPLAY
+[2018-07-09 18:07:48] [TRACE  ] [SC_Webmaster_D]: isFinal: 2, winner slot: 1
+[2018-07-09 18:10:11] [INFO   ] [SC_Webmaster_D]: Site setting [TourneyStatus] changed to 0
+[2018-07-09 18:10:11] [INFO   ] [SC_Webmaster_D]: Unlocked signup for event ID 3
+[2018-07-09 18:11:13] [INFO   ] [SC_Webmaster_D]: Site setting [ShowRankColumn] changed to 0
+[2018-07-09 18:11:13] [INFO   ] [SC_Webmaster_D]: Site setting [EnableFreePlayScoring] changed to 0
+[2018-07-09 18:12:57] [INFO   ] [SC_Webmaster_D]: Site setting [OrganizationName] changed to Super Smash Mocs
+[2018-07-09 18:12:57] [INFO   ] [SC_Webmaster_D]: Site setting [AboutPageSubtitle] changed to Welcome to SmashClub!
+[2018-07-09 18:12:57] [INFO   ] [SC_Webmaster_D]: Site setting [AboutPageBody] changed to SmashClub 2.0 is a full club management site for your Super Smash Bros. club. Schedule events, post announcements and polls, run tournaments, record ranks, and much more.
+[2018-07-09 18:12:58] [INFO   ] [SC_Webmaster_D]: Site setting [DonateURL] changed to http://www.paypal.com/
+[2018-07-09 18:12:58] [INFO   ] [SC_Webmaster_D]: Site setting [EnableDonatePortlet] changed to 0
+[2018-07-09 18:13:05] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-09 18:14:58] [INFO   ] [SC_Webmaster_D]: Site setting [TwitchOnAir] changed to 1
+[2018-07-09 18:15:25] [TRACE  ] [SC_Webmaster_D]: getEventIdsByUser returned 1 results for userid=1
+[2018-07-09 18:15:25] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=1
+[2018-07-09 19:40:38] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-07-09 19:41:20] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-07-09 19:43:29] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-07-09 19:46:07] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-07-09 19:54:23] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-07-09 19:54:55] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-07-09 19:55:04] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-07-09 19:55:04] [SEVERE ] [SC_Webmaster_D]: saveAttendance failed on decay query
+[2018-07-09 19:55:04] [SEVERE ] [SC_Webmaster_D]: UPDATE user_ranking 
+	SET rank_current = (CASE 
+	WHEN rank_current >= 2000 AND rank_missed_events >= 2 THEN rank_current - 30 
+	WHEN rank_current >= 1200 AND rank_missed_events >= 3 THEN rank_current - 20 
+	ELSE rank_current
+	) WHERE uuid NOT IN (2,3,4,5,8,9,10)
+[2018-07-09 19:55:04] [SEVERE ] [SC_Webmaster_D]: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') WHERE uuid NOT IN (2,3,4,5,8,9,10)' at line 6
+[2018-07-09 19:55:04] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-07-09 19:55:19] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-10 20:55:49] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-10 20:55:50] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 1 rows, private=
+[2018-07-26 22:17:06] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-07-26 22:17:38] [DEBUG  ] [Anonymous]: getProfilesByUsername called with search=, staffonly=
+[2018-07-27 15:18:29] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-07-28 19:26:21] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-07-28 19:26:21] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-07-28 19:26:23] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 25.44.18.62
+[2018-08-10 16:53:43] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-08-10 16:53:43] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-08-10 16:53:46] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 192.168.1.10
+[2018-08-11 17:00:48] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-08-11 17:00:48] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-08-11 17:00:50] [INFO   ] [Anonymous]: 404 - NOT FOUND (/HNAP1/), errorpage served to 192.168.1.15
+[2018-08-13 21:49:24] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-08-13 21:49:39] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-08-13 21:49:39] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-08-13 21:49:39] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-08-13 21:49:40] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-08-13 21:49:49] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-08-13 21:49:56] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 4 rows for event id=1
+[2018-08-13 21:49:56] [SEVERE ] [SC_Webmaster_D]: saveAttendance failed on decay query
+[2018-08-13 21:49:56] [SEVERE ] [SC_Webmaster_D]: UPDATE user_ranking 
+	SET rank_current = (CASE 
+	WHEN rank_current >= 2000 AND rank_missed_events >= 2 THEN rank_current - 30 
+	WHEN rank_current >= 1200 AND rank_missed_events >= 3 THEN rank_current - 20 
+	ELSE rank_current
+	) WHERE uuid NOT IN (5,2,6,12)
+[2018-08-13 21:49:56] [SEVERE ] [SC_Webmaster_D]: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') WHERE uuid NOT IN (5,2,6,12)' at line 6
+[2018-08-13 21:49:57] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1

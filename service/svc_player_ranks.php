@@ -109,11 +109,8 @@ function svc_updateRank($uuid, $rank){
 	SET rank_current = '$rank', 
 	rank_season_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_season_high, rank_current) ELSE rank_season_high END, 
 	rank_career_high = CASE WHEN rank_placements<2 THEN GREATEST(rank_career_high, rank_current) ELSE rank_career_high END, 
-	rank_placements = GREATEST(0, rank_placements-1)
-
+	rank_placements = GREATEST(0, rank_placements-1) 
 	WHERE uuid='$uuid'";
-	
-	
 	//case is <2 because if placements is 1, then it will go to 0 and the member will place. If 0, it will not decrement
 
 	if (mysqli_query($db, $query)){
@@ -154,6 +151,44 @@ function svc_isNewCareerHighTier($new, $high){
 		return true;
 	}
 	return false;
+}
+
+function svc_getConsecutiveMatches($uuid){
+	global $db;
+	$query = "SELECT rank_consec_games FROM user_ranking 
+	WHERE uuid = '$uuid'";
+	$rs = mysqli_query($db, $query);
+	if ($row = mysqli_fetch_assoc($rs)){
+		return $row['rank_consec_games'];
+	} else {
+		return 0;
+	}
+}
+
+function svc_updateConsecutiveMatches($uuid, $win){
+	global $db;
+	$streak = svc_getConsecutiveMatches($uuid);
+	if ($win){
+		if ($streak >= 0){
+			$new = $streak + 1;
+		} else {
+			$new = 0;
+		}
+	} else {
+		if ($streak <= 0){
+			$new = $streak - 1;
+		} else {
+			$new = 0;
+		}
+	}
+	$query = "UPDATE user_ranking SET rank_consec_games = '$new' WHERE uuid = '$uuid'";
+	if (mysqli_query($db, $query)){
+		return true;
+	} else {
+		writeLog(ERROR, "updateConsecutiveMatches failed");
+		writeLog(ERROR, mysqli_error($db));
+		return false;
+	}
 }
 
 //End the current season.
@@ -228,7 +263,7 @@ function svc_startSeason($title, $game, $method, $placements){
 function svc_populateInitRanks($method, $placements, $game){
 	global $db;
 	if ($method==INIT_FRESH_START){ //Set all rows to 1200 and reset placement matches
-		$query = "UPDATE user_ranking SET rank_current = 1200, rank_season_high = 0, rank_placements = '$placements'";
+		$query = "UPDATE user_ranking SET rank_current = 1200, rank_season_high = 0, rank_consec_games = 0, rank_placements = '$placements'";
 		if (mysqli_query($db, $query)){
 			writeLog(DEBUG, "Initial season ratings have been populated using the fresh-start method,.");
 			return true;
@@ -264,7 +299,7 @@ function svc_populateInitRanks($method, $placements, $game){
 			}
 		}
 		foreach($init_ranks as $rkey => $rval){ //Perform database updates.
-			$query2 = "UPDATE user_ranking SET rank_current = '$rval', rank_season_high = 0, rank_placements = '$placements' WHERE uuid = '$rkey'";
+			$query2 = "UPDATE user_ranking SET rank_current = '$rval', rank_season_high = 0, rank_consec_games = 0, rank_placements = '$placements' WHERE uuid = '$rkey'";
 			if (mysqli_query($db, $query2)){
 				writeLog(TRACE, "init_ranks query: ".$query2);
 			} else {
@@ -275,6 +310,48 @@ function svc_populateInitRanks($method, $placements, $game){
 			}
 		}
 		writeLog(DEBUG, "Initial season ratings have been populated using the last-season method.");
+		return true;
+	} elseif ($method == INIT_AVG_SEASONS) {
+		$games = implode("','", svc_getSeasonsByGame($game));
+		$query3 = "SELECT uuid, rank_final FROM user_rank_history WHERE season_number IN ('$games') ORDER BY season_number DESC";
+		$user_array = svc_getActiveUUIDArray();
+		$rs3 = mysqli_query($db, $query3);
+		if (!$rs3){
+			writeLog(SEVERE, "populateInitRanks failed on records query.");
+			writeLog(SEVERE, "Query: ".$query1);
+			writeLog(SEVERE, "MySQL Error: ".mysqli_error($db));
+			return false;
+		}
+		$init_ranks = array();
+		foreach($user_array as $user){
+			$total=0; $count=0;
+			mysql_data_seek($rs3, 0);
+			while ($record = mysqli_fetch_assoc($rs3)){
+				if ($record['uuid']==$user){
+					$count++;
+					$total += $record['rank_final'];
+				}
+			}
+			if ($count==0){
+				$average = 1200;
+			} else {
+				$average = round($total / $count);
+			}
+			writeLog(DEBUG, "Season average for UUID ".$user." is ".$average);
+			$init_ranks[$user] = $average;
+		}
+		foreach($init_ranks as $rkey => $rval){ //Perform database updates.
+			$query2 = "UPDATE user_ranking SET rank_current = '$rval', rank_season_high = 0, rank_consec_games = 0, rank_placements = '$placements' WHERE uuid = '$rkey'";
+			if (mysqli_query($db, $query2)){
+				writeLog(TRACE, "init_ranks query: ".$query2);
+			} else {
+				writeLog(SEVERE, "init_ranks query failed. Aborting the update.");
+				writeLog(SEVERE, "Query: ".$query2);
+				writeLog(SEVERE, "MySQL Error: ".mysqli_error($db));
+				return false;
+			}
+		}
+		writeLog(DEBUG, "Initial season ratings have been populated using the average method.");
 		return true;
 	}
 }

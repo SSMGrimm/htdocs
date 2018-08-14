@@ -27,7 +27,7 @@ body {
 .sidebar .sidebarlink {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: <?php echo $theme['SidebarTextColor']; ?> ;
     display: block;
     transition: 0.3s
@@ -35,14 +35,14 @@ body {
 
 .sidebarlink img {
 	display: inline;
-	width: 36px;
+	width: 30px;
 	vertical-align: middle;
 }
 
 .sidebarlink a {
 	font-family: MavenPro;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: <?php echo $theme['SidebarTextColor']; ?> !important ;
     display: inline;
     transition: 0.3s
@@ -541,6 +541,12 @@ body {
 	text-align: center;
 }
 
+.rec-menu-3 {
+	display: inline-block;
+	width: 1/3;
+	text-align: center;
+}
+
 .formpage-block {
 	display: block;
 	width: 50%;
@@ -630,6 +636,37 @@ body {
 	vertical-align: middle;
 }
 
+.sidebar .sidebartitle {
+	font-family: PerpetuaBold;
+	padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    transition: 0.3s
+}
+
+.sidebar .sidebartitle a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 2px 2px black;
+}
+
+.sidebar .sidebartitle a:hover {
+	text-decoration: underline;
+}
+
+#nav-mail {
+	display: block;
+	color: <?php echo $theme['BlockTextColor']; ?>;
+}
+
+#nav-mail img {
+	vertical-align: middle;
+	margin-bottom: 2px;
+}
+
 #tourney-score-table {
 	text-align: center;
 }
@@ -640,10 +677,15 @@ body {
 
 @font-face{
 	font-family: MavenPro;
-	src: url(/resource/MavenProLight-300.otf);
+	src: url(/resource/MavenProLight-200.otf);
 }
 
 @font-face{
 	font-family: BigNoodleTitling;
 	src: url(/resource/big_noodle_titling.ttf);
+}
+
+@font-face{
+	font-family: PerpetuaBold;
+	src: url(/resource/perpetua_bold.ttf);
 }
