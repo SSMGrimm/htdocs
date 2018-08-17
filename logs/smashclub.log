@@ -1312,3 +1312,19 @@
 	) WHERE uuid NOT IN (5,2,6,12)
 [2018-08-13 21:49:56] [SEVERE ] [SC_Webmaster_D]: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') WHERE uuid NOT IN (5,2,6,12)' at line 6
 [2018-08-13 21:49:57] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
+[2018-08-14 13:05:35] [DEBUG  ] [Anonymous]: getAllUpcomingEvents returned 0 rows, private=
+[2018-08-14 13:05:44] [DEBUG  ] [SC_Webmaster_D]: Authentication successful: email=root@dev, type=5, uuid=1, username=SC_Webmaster_D
+[2018-08-14 13:05:44] [INFO   ] [SC_Webmaster_D]: SC_Webmaster_D logged in from IP address ::1
+[2018-08-14 13:05:44] [DEBUG  ] [SC_Webmaster_D]: getAccountStatus returned 0 for user=SC_Webmaster_D
+[2018-08-14 13:05:44] [DEBUG  ] [SC_Webmaster_D]: getAllUpcomingEvents returned 0 rows, private=
+[2018-08-14 13:06:02] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-08-14 13:06:04] [DEBUG  ] [SC_Webmaster_D]: getGuestListByEvent returned 9 rows for event id=3
+[2018-08-14 13:06:04] [SEVERE ] [SC_Webmaster_D]: saveAttendance failed on decay query
+[2018-08-14 13:06:04] [SEVERE ] [SC_Webmaster_D]: UPDATE user_ranking 
+	SET rank_current = (CASE 
+	WHEN rank_current >= 2000 AND rank_missed_events >= 2 THEN rank_current - 30 
+	WHEN rank_current >= 1200 AND rank_missed_events >= 3 THEN rank_current - 20 
+	ELSE rank_current
+	) WHERE uuid NOT IN (2,3,4,5,6,7,8,9,10)
+[2018-08-14 13:06:04] [SEVERE ] [SC_Webmaster_D]: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') WHERE uuid NOT IN (2,3,4,5,6,7,8,9,10)' at line 6
+[2018-08-14 13:06:05] [ERROR  ] [SC_Webmaster_D]: 500 - INTERNAL SERVER ERROR, errorpage served to ::1
